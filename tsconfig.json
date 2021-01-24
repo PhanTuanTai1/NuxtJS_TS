@@ -15,6 +15,7 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
+    "noImplicitAny": false,
     "paths": {
       "~/*": [
         "./*"
@@ -25,7 +26,8 @@
     },
     "types": [
       "@nuxt/types",
-      "@types/node"
+      "@types/node",
+      "@nuxtjs/axios"
     ]
   },
   "exclude": [
